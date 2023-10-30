@@ -20,18 +20,26 @@
     <label id="email-label"> email<input id="email" type="email" placeholder="Enter your email" required /> </label>
      <label id="number-label"> Age(optional) <input id="number" type="number" min="18" max="120" placeholder="Age" /> </label>
      </fieldset>
+
      <fieldset>
 <label> Which option best describes your current role?
-  <select id="dropdown">
-  <option>Select current role</option>
-  <option>Student</option>
-  <option>Full time job</option>
-  <option>Full time learner</option>
-  <option>Prefer not to say</option>
-  <option>Other</option>
-</select>
+
+  <div class="btn-group">
+    <button type="button" class="btn  btn-primary dropdown-toggle" data-bs-toggle="dropdown">Select current role</button>
+    <div class="dropdown-menu">
+  
+  <a class="dropdown-item" href="#">Student</a>
+  <a class="dropdown-item" href="#">Full time job</a>
+  <a class="dropdown-item" href="#">Full time learner</a>
+  <a class="dropdown-item" href="#">Prefer not to say</a>
+  <a class="dropdown-item" href="#">Other</a>
+</div>
+</div>
+
 </label>
        </fieldset>
+
+
        <fieldset class="survey-form">
          Would you recommend FreeCodecamp to a friend?
      <label> <input type="radio" name="recommend" value="definitely">Definitely</input>
@@ -46,16 +54,19 @@
 
         <label>
   </fieldset>
+
   <fieldset>
-    <label>
-      What is your favorite feature of FreeCodeCamp?
-      <select>
-        <option></option>
-        <option></option>
-        <option></option>
-        <option></option>
-        <option></option>
-        </select>
+    <label> What is your favorite feature of FreeCodeCamp?
+       <div class="btn-group">
+      <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">Select favorite feature</button>
+        <div class="dropdown-menu">
+        <a class="dropdown-item" href="#"></a>
+        <a class="dropdown-item" href="#"></a>
+        <a class="dropdown-item" href="#"></a>
+        <a class="dropdown-item" href="#"></a>
+        <a class="dropdown-item" href="#"></a>
+      </div>
+      </div>
     </label>
     </fieldset>
   <fieldset >
